@@ -1,0 +1,84 @@
+{
+  "name": "financial-insights-frontend",
+  "version": "1.0.0",
+  "description": "AI-Powered Financial Insights Platform Frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "@types/node": "^16.18.59",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "axios": "^1.6.0",
+    "recharts": "^2.8.0",
+    "d3": "^7.8.5",
+    "@types/d3": "^7.4.2",
+    "tailwindcss": "^3.3.5",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.16.4",
+    "react-query": "^3.39.3",
+    "zustand": "^4.4.6",
+    "clsx": "^2.0.0",
+    "lodash": "^4.17.21",
+    "@types/lodash": "^4.14.201",
+    "react-hot-toast": "^2.4.1",
+    "react-loading-skeleton": "^3.3.1",
+    "react-intersection-observer": "^9.5.2",
+    "react-virtualized": "^9.22.5",
+    "@types/react-virtualized": "^9.21.29",
+    "lightweight-charts": "^4.1.3",
+    "socket.io-client": "^4.7.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.8",
+    "web-vitals": "^2.1.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8000",
+  "keywords": [
+    "financial",
+    "ai",
+    "sentiment-analysis",
+    "technical-analysis",
+    "stock-prediction",
+    "react",
+    "typescript"
+  ],
+  "author": "Financial Insights Team",
+  "license": "MIT"
+}
